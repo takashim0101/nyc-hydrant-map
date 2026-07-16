@@ -1,0 +1,12 @@
+# Ignore local server script and build script (not needed for static hosting)
+serve_with_range.py
+create_pmtiles.sh
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python virtual environment folders
+.venv/
+venv/
+env/
+.env/
